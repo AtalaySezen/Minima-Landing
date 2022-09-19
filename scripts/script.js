@@ -1,23 +1,3 @@
-let showMenu = document.getElementById("hamburger");
-let mobileMenu = document.getElementById("mobile");
-let minimaLogo = document.getElementById("minima-logo");
-let closeMenu = document.getElementById("closeMenu");
-
-
-
-console.log(mobileMenu)
-
-
-showMenu.addEventListener("click",()=>{
-    mobileMenu.classList.toggle("showHamburger");
-})
-
-closeMenu.addEventListener("click",()=>{
-    mobileMenu.classList.remove("showHamburger");
-})
-
-
-
 let slides = document.getElementsByClassName("mySlides");
 let dots = document.getElementsByClassName("dot");
 let prev = document.querySelector(".prev");
